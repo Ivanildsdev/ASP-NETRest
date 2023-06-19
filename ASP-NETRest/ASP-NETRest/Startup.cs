@@ -54,6 +54,13 @@ namespace ASP_NETRest
             {
                 endpoints.MapControllers();
             });
+
+            double x = 1432.7;
+            int y;
+            y = (int)x;
+
+            x++;
+
         }
     }
 }
