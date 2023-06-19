@@ -3,20 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP-NETRest", "ASP-NETRest\ASP-NETRest.csproj", "{76CE027C-625E-4500-A836-05505E9076C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP-NETRest", "ASP-NETRest\ASP-NETRest.csproj", "{EC0F1FDB-A389-4314-86AA-742A3CADFD80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC0F1FDB-A389-4314-86AA-742A3CADFD80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0F1FDB-A389-4314-86AA-742A3CADFD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0F1FDB-A389-4314-86AA-742A3CADFD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0F1FDB-A389-4314-86AA-742A3CADFD80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{76CE027C-625E-4500-A836-05505E9076C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76CE027C-625E-4500-A836-05505E9076C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76CE027C-625E-4500-A836-05505E9076C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76CE027C-625E-4500-A836-05505E9076C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51018664-A0E9-4599-9303-B14042A97DAB}
 	EndGlobalSection
 EndGlobal
