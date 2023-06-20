@@ -26,7 +26,7 @@ namespace ASP_NETRest.Controllers
             return Ok(_personBusiness.FindAll());
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
         public IActionResult Get(long id)
         {
             var person = _personBusiness.FindByID(id);
@@ -35,7 +35,7 @@ namespace ASP_NETRest.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post(PersonVO person)
+        public IActionResult Post([FromBody] PersonVO person)
         {
             if (person == null) return BadRequest();
 
@@ -43,7 +43,7 @@ namespace ASP_NETRest.Controllers
         }
 
         [HttpPut]
-        public IActionResult Put(PersonVO person)
+        public IActionResult Put([FromBody] PersonVO person)
         {
             if (person == null) return BadRequest();
 

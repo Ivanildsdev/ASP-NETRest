@@ -47,7 +47,7 @@ namespace ASP_NETRest
             services.AddApiVersioning();
 
             services.AddScoped<IPersonBusiness, PersonBusinessImplementation>();
-                        services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
+            services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
 
             services.AddSwaggerGen(c =>
             {
@@ -91,7 +91,7 @@ namespace ASP_NETRest
                 var evolveConnection = new MySql.Data.MySqlClient.MySqlConnection(connection);  
                 var evolve = new EvolveDb.Evolve(evolveConnection, msg => Log.Information(msg))
                 {
-                    Locations = new List<string> { "db/migrations", "sb/dataset"},
+                    Locations = new List<string> { "db/migrations", "db/dataset"},
                     IsEraseDisabled = true
                 };
 
