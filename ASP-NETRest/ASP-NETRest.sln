@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP-NETRest", "ASP-NETRest\ASP-NETRest.csproj", "{EC0F1FDB-A389-4314-86AA-742A3CADFD80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP-NETRest", "ASP-NETRest\ASP-NETRest.csproj", "{EC0F1FDB-A389-4314-86AA-742A3CADFD80}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F87A7ABA-88EB-4900-9CC5-DFB52B076D0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EC0F1FDB-A389-4314-86AA-742A3CADFD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC0F1FDB-A389-4314-86AA-742A3CADFD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC0F1FDB-A389-4314-86AA-742A3CADFD80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87A7ABA-88EB-4900-9CC5-DFB52B076D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87A7ABA-88EB-4900-9CC5-DFB52B076D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87A7ABA-88EB-4900-9CC5-DFB52B076D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87A7ABA-88EB-4900-9CC5-DFB52B076D0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

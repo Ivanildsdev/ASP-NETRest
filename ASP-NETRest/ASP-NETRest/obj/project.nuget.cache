@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vaFBijf557ZBmBK9Y5cJKdHBEZG17IBVeCdSQdMVM7o8HuhTsE1xF0ow5XeQ78flS3Yi6eD0+ZKXSHDZJFlaOg==",
+  "dgSpecHash": "hm8YF6dVAWZmHBxQEBChjwNukkeZtRe8Jd7F8Bk55Ms/UOflPV+y6Edq2Z4XN8fR59YBWvcICJPstg4wrQfcSA==",
   "success": true,
   "projectFilePath": "C:\\Estudo\\.net\\ASP-NETRest\\ASP-NETRest\\ASP-NETRest\\ASP-NETRest\\ASP-NETRest.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\ivan.santos\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ivan.santos\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\ivan.santos\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ivan.santos\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\ivan.santos\\.nuget\\packages\\mysqlconnector\\0.69.10\\mysqlconnector.0.69.10.nupkg.sha512",
     "C:\\Users\\ivan.santos\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\ivan.santos\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\3.2.7\\pomelo.entityframeworkcore.mysql.3.2.7.nupkg.sha512",
