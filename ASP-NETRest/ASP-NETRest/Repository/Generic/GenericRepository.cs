@@ -11,10 +11,10 @@ namespace ASP_NETRest.Repository.Generic
         private MySQLContext _context;
         private DbSet<T> _dbSet;
 
-        public GenericRepository(MySQLContext context, DbSet<T> dbSet)
+        public GenericRepository(MySQLContext context)
         {
             _context = context;
-            _dbSet = dbSet;
+            _dbSet = context.Set<T>();
         }
 
         public T Create(T item)
