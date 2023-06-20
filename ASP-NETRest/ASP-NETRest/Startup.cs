@@ -13,6 +13,8 @@ using ASP_NETRest.Repository;
 using Serilog;
 using ASP_NETRest.Repository.Generic;
 using ASP_NETRest.Business;
+using ASP_NETRest.Hypermedia.Filters;
+using ASP_NETRest.Hypermedia.Enricher;
 
 namespace ASP_NETRest
 {
@@ -44,6 +46,10 @@ namespace ASP_NETRest
                 MigrateDatabase(connection);
             }
 
+            var filterOptions = new HypermediaFilterOptions();
+            filterOptions.ContentResponseEnricherList.Add(new PersonEnricher());
+            services.AddSingleton(filterOptions);
+
             services.AddApiVersioning();
 
             services.AddScoped<IPersonBusiness, PersonBusinessImplementation>();
@@ -74,6 +80,7 @@ namespace ASP_NETRest
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapControllerRoute("DefaultApi", "{controller=values}/{id?}");
             });
 
             double x = 1432.7;
